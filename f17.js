@@ -60,13 +60,16 @@ const cart=[]
 // const cart=[...products]
 // console.log(cart)
 
+// j
+
 
 // method 2
 products.forEach((product) => {
     product.quantity=1
     product.total=product.price*product.quantity
 
-    cart.push(product)
+    // cart.push(product)
+    cart=[...cart,product]
 })
 
 console.log(cart)

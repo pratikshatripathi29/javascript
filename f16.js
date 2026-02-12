@@ -15,7 +15,7 @@ const order = {
 db.orders.insertOne(order)
 mongosh
 //Create flipcart database
-use flipcart
+// use flipcart
 
 //create collection orders > email,items,orderValue,status,orderDate
 db.orders.insertOne({
