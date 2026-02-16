@@ -30,11 +30,11 @@ console.log(cart)
 
 
 
-products.map((product)=>{
-    const obj={
-    ...products,
-    quantity:1,
-}
-    cart=[...cart,obj]
-})
-console.log(cart)
+// products.map((product)=>{
+//     const obj={
+//     ...products,
+//     quantity:1,
+// }
+//     cart=[...cart,obj]
+// })
+// console.log(cart)
