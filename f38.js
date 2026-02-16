@@ -13,7 +13,19 @@
 // let d=new Date(2026,1,1)
 // console.log(d)
 
-// let d=new Date(2026,1,1,10,10,10)
+let d=new Date(2026,1,1,10,10,10)
+console.log(d)
+// let d=new Date("16 February 2026 10:10:10")
 // console.log(d)
-let d=new Date("16 February 2026 10:10:10")
+
+
+// d.setFullYear(2025)
+// d.setDate()
+// d.setHours(6)
+// d.setDate(21)
+// d.setMonth(5)
+// d.setSeconds(3)
+// d.setMilliseconds(2)
+
+d.setTime(9999990000)
 console.log(d)
